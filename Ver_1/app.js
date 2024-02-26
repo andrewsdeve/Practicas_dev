@@ -1,30 +1,18 @@
-function extraerNumeroDesdeElemento(elemento){
-    let miElemento = document.getElementById(elemento);
-    let miTexto = miElemento.value;
-    let miNumero = Number(miTexto);
-    return miNumero;
+function capturarVenta(arg){
+    let elementoCapturar = document.getElementById(arg)
+    let ventaTienda = elementoCapturar.value;
+    let ventasTiendas = Number(ventaTienda);
+    return ventasTiendas;
 }
 function calcular(){
-    let ventas1, ventas2, ventas3, ventas4;
-    ventas1 = extraerNumeroDesdeElemento("ventasTienda1");
-    ventas2 = extraerNumeroDesdeElemento("ventasTienda2");
-    ventas3 = extraerNumeroDesdeElemento("ventasTienda3");
-    ventas4 = extraerNumeroDesdeElemento("ventasTienda4");
+    let venta1,venta2,venta3,venta4;
+    venta1 = capturarVenta("ventaTienda1");
+    venta2 = capturarVenta("ventaTienda2");
+    venta3 = capturarVenta("ventaTienda3");
+    venta4 = capturarVenta("ventaTienda4");
+    let totalVentas = venta1 + venta2 + venta3 + venta4;
+    let mensajeVentasPantalla = `Las ventas totales son: ${totalVentas}`;
+    let pantallaTexto = document.getElementById("textoPantalla");
+    pantallaTexto.textContent = mensajeVentasPantalla;
+} 
 
-    /* Hacemos los calculos */
-
-    let totalVentas = ventas1 + ventas2 + ventas3 + ventas4;
-
-    /* Creamos mensaje para mostrar en el parrafo de salida */
-
-    let mensajeSalida = `Total Ventas: ${totalVentas}`;
-
-    // capturamos parrafo donde va la salida
-
-    let elementoSalida = document.getElementById("parrafoSalida");
-
-    elementoSalida.textContent = mensajeSalida;
-
-
-
-}
