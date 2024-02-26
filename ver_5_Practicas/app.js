@@ -35,7 +35,7 @@ function crearElementos(contenedorID, min, cantidadElementos){
     //Encontrar el id del contenedor que alberga los elementos
     let elementoContedor = document.getElementById(contenedorID);
     //Loop para crear tantos elementos se necesiten
-    for(let conteoContenido = 0; conteoContenido <= cantidadElementos; conteoContenido++){
+    for(let conteoContenido = 1; conteoContenido <= cantidadElementos; conteoContenido++){
         let textoEtiqueta = "Nota: " + conteoContenido;
         //crear contenidos con crear parrafo calcular
         let  parrafoCreado = crearParrafosCalcular(textoEtiqueta, min);
