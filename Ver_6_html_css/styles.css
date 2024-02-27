@@ -1,0 +1,27 @@
+body{
+    background: #ddd;
+}
+
+.container{
+    background-color: lightsalmon;
+    border: 3px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+
+
+}
+
+.container div{
+    background: lightblue;
+    border: 2px solid #09f;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

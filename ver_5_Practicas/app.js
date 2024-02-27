@@ -57,7 +57,7 @@ function calcular(){
     for(let item of elementoCalculo.children){
         let valorItem = extraerValor(item.children[1]);
         calculo[posicionCalculo] = valorItem;
-        posicionCalculo++;
+        posicionCalculos++;
     }
 
     let calculoTotal = sumarTotal(calculo);
