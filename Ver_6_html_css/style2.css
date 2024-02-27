@@ -1,0 +1,17 @@
+div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
