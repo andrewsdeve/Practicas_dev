@@ -20,4 +20,5 @@ function Automovil(marca,modelo,anio,color){
 }
 
 let carro1 = new Automovil("Chevrolet","Corsa", 2024, "Rojo");
+let carro2 = new Automovil("Wolksvaguen", "Jetta", 2018,"Azul" )
 
