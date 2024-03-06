@@ -18,5 +18,23 @@
     "correo": "botschaft@botschaftangola.de",
     "jefeMision": "Balbina Malheiros Dias",
     "sede": "Berlin"
+},
+{
+    "embajada": "gabon",
+    "direccion": "26 bis avenue Raphaël, 75016",
+    "telefono": 33142996868,
+    "web": "https://www.botschaftangola.de",
+    "correo": "contact@ambassadegabonfrance.org",
+    "jefeMision": "Liliane Massala",
+    "sede": "Paris"
+},
+
+{
+    "embajada": "swaziland",
+    "direccion": "1712 New Hampshire Av NW,Washington DC 20009",
+    "telefono": 12022348254,
+    "correo": "embassy@swaziland-usa.com",
+    "jefeMision": "Njabuliso Gwebu",
+    "sede": "Whashington"
 }
 ]
