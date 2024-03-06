@@ -1,0 +1,53 @@
+/* div{
+    background-color: red;
+    font-size: 24px;
+    padding: 20px;
+    margin: 20px;
+}
+
+*{
+    font-size: 14px;
+}
+
+#elementoVerde{
+    background-color: green;
+}
+.elementoVioletas{
+    background-color: violet;
+}
+
+[width="400px"]{
+    background-color: yellow;
+}
+
+div:hover{
+    background-color: aquamarine;
+}
+
+div::before{
+    content: "->" ;
+}
+
+main div{
+    
+}
+*/
+
+main div{
+    background-color: red; /*Aplica para todos los divs*/
+}
+
+main > div{
+    background-color: green; /*Divs directos despues del main*/
+}
+
+main + div{
+    background-color: yellow;
+}
+h1~h2{
+    background-color: aqua;
+}
+
+[value~="maria"]{
+    font-size: 24px;
+}
