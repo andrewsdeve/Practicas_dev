@@ -1,0 +1,21 @@
+div{
+    background-color: red;
+}
+span{
+    background-color: yellow;
+}
+
+.block{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    display: block;
+}
+
+.inline{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+}
