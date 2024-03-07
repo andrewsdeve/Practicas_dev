@@ -1,0 +1,12 @@
+img{
+    width: 500px;
+    float: right;
+    margin: 10px;
+}
+.left{
+    float:right;
+}
+
+p{
+    clear: left;
+}
